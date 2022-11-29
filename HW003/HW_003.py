@@ -5,12 +5,13 @@
 # - x=-34; y=-30 -> 3
 
 import os
+clear = lambda: os.system('clear')
+clear()
 
 x = int(input('Введите число X: '))
 y = int(input('Введите число Y: '))
 
-clear = lambda: os.system('clear')
-clear()
+
 
 if x > 0 and y > 0:
     print(f'При координатах x = {x} и y = {y} ваша точка находится в плоскости 1 ')
